@@ -1,0 +1,63 @@
+.cards {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    .container {
+        padding: 0 15px;
+    }
+}
+.card_left {
+    float: left;
+}
+.card_right {
+    float: right;
+}
+.card {
+    width: 255px;
+    height: 268px;
+    background: $blue;
+    margin:  15px 15px 30px 15px;
+}
+.card_content {
+    position: relative;
+}
+.card_visual {
+    position: absolute;
+    background: $white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    margin: 30px;
+}
+.card_text {
+    position: absolute;
+    width: 170px;
+    color: $white;
+    margin: 110px 15px 15px 30px;
+}
+.card_text2 {
+    position: absolute;
+    color: $white;
+    opacity: 0.5;
+    margin: 162px 15px 15px 30px;
+    width: 169px;
+    font-size: 13px;
+    line-height: 16px;
+
+
+}
+.btn {
+    position: absolute;
+    padding: 213px 15px 15px 30px;
+}
+.number {
+    position: absolute;
+    padding: 80px 15px 15px 180px;
+    color: $light_blue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 162px;
+}

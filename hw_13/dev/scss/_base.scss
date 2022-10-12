@@ -1,0 +1,64 @@
+.clock {
+    background: url(../images/clockface.jpg);
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+}
+.hour {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(0);
+    background: url(../images/hourhand.png);
+    width: 30px;
+    height: 100%;
+    animation: hour 600s linear infinite;
+}
+@keyframes hour {
+    0% {
+        transform: translate(-50%,-50%) rotate(0);
+    }
+
+    100% {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+.minute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(0);
+    background: url(../images/minhand.png);
+    width: 30px;
+    height: 100%;
+    animation: minute 60s linear infinite;
+}
+@keyframes minute {
+    0% {
+        transform: translate(-50%,-50%) rotate(0);
+    }
+
+    100% {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+.sec {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(0);
+    background: url(../images/sechand.png);
+    width: 30px;
+    height: 100%;
+    animation: sec 6s linear infinite;
+}
+@keyframes sec {
+    0% {
+        transform: translate(-50%,-50%) rotate(0);
+    }
+
+    100% {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}

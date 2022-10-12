@@ -1,0 +1,52 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+}
+.container {
+    margin: 0 auto;
+    background: #E6E6E6;
+    margin: 50px;
+    width: 1000px;
+    overflow: hidden;
+}
+.div_big {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 64px;
+    line-height: 75px;
+    float: left;
+    color: white;
+    background: #FC8F8F;
+}
+.div_big_right{
+    float: right;
+}
+.div_big_left {
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 64px;
+    line-height: 75px;
+    float: left;
+    color: white;
+    background: #FC8F8F;
+}
+.div_smal {
+    float: right;
+}
+.div {
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    float: left;
+    color: white;
+    background: #FC8F8F;
+}

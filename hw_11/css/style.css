@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 40px;
+    line-height: 50px;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+div {
+    border-bottom: 10px solid rgb(204, 145, 63);
+    background-color: darkgray;
+}
+.menu {
+    position: relative;
+}
+.menu ul {
+    display: none;
+    max-width: 200px;
+    position: absolute;
+}
+.menu>li {
+    display: inline-block;
+}
+.menu>li:hover .menu-full{
+    display: block;
+}
+ul {
+    margin: 0;
+    padding:0;
+    text-align: center;
+    list-style: none;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: dimgrey;
+    padding: 10px 50px;
+}
+a:hover {
+    color:rgb(204, 145, 63); ;
+}
+.menu-full {
+    top: calc(100% + 10px);
+}
+.menu-full li {
+    position: relative;
+    background-color: rgb(204, 145, 63);
+}
+.menu-full::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    top:-10px;
+    height: 10px;
+    width: 100%;
+}
+.menu-full>li:hover .menu-empty {
+    display: block;
+}
+.menu-empty {
+    position: absolute;
+    right: -200px;
+    top: 0;
+}
+
